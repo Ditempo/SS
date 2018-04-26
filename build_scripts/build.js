@@ -40,10 +40,16 @@ globFunc
                             description = marked(data.attributes.description),
                             layout = data.attributes.layout || 'posts',
                             content = marked(data.body);
+
+                        
                     }
                 )
         });
     })
-    .catch(() => {
-        console.log("error ");
+    .then(str => {
+        // save the html file
+        fse.writeFile(`${destPath}/${fileData.name}.html`, str);
+    })
+    .catch(err => {
+        console.error(err);
     });
