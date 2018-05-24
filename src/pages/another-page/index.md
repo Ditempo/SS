@@ -1,6 +1,7 @@
 ---
 title: Another Page
-layout: minimal
+layout: posts
+description: hi
 ---
 ## Welcome to another page
 

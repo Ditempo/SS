@@ -1,3 +1,8 @@
+---
+title: Another Page
+layout: minimal
+description: hi
+---
 This example site was generated with <a href="https://github.com/doug2k1/nanogen">NanoGen</a>, a micro static site generator built for learning purposes.
 
 
