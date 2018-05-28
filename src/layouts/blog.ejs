@@ -15,7 +15,7 @@
                 </div>        
                 <div>
                     <a href="<%= site.basePath%>/about">소개</a>
-                    <a href="<%= site.basePath%>/blog" style="font-weight: 500; color:#000000;">블로그</a>
+                    <a href="<%= site.basePath%>/" style="font-weight: 500; color:#000000;">블로그</a>
                     <a href="#">깃허브</a>
                 </div>
             </div>
@@ -24,7 +24,7 @@
         <% for(var i=0; i< item.length; i++){%>
         <div class="main-content">
             <div>
-                <a href="<%= item[i].url%>"><h1><%= item[i].title %></h1></a>
+                <a href=`/<%= site.basePath+"/"+item[i].url%>`><h1><%= item[i].title %></h1></a>
                 <p class="desc"><%= item[i].desc %></p>
                 <p class="date"><%= item[i].date %></p>
             </div>
