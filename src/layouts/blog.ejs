@@ -11,7 +11,7 @@
     <header>
             <div>
                 <div>
-                    <a href="<%= site.basePath %>/">길상우 기술블로그</a>
+                    <a href="/">길상우 기술블로그</a>
                 </div>        
                 <div>
                     <a href="<%= site.basePath%>/about">소개</a>
@@ -24,7 +24,7 @@
         <% for(var i=0; i< item.length; i++){%>
         <div class="main-content">
             <div>
-                <a href="<%=item[i].url%>"><h1><%= item[i].title %></h1></a>
+                <a href="<%= item[i].url%>"><h1><%= item[i].title %></h1></a>
                 <p class="desc"><%= item[i].desc %></p>
                 <p class="date"><%= item[i].date %></p>
             </div>
