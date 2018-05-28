@@ -59,7 +59,6 @@ globFunc
                         let layout = pageData.attributes.layout || 'post';
                         let layoutFileName = `${srcPath}/layouts/${layout}.ejs`;
                         let layoutFile = fse.readFileSync(layoutFileName, 'utf-8');
-                        console.log(`${srcPath}/layouts/${layout}.ejs`);
                         let completePage = ejs.render(
                             layoutFile,
                             {
@@ -97,7 +96,7 @@ globFunc
                     )
                 })
                 .then(str=>{
-                    fse.writeFile(`./docs/blog/index.html`, str);
+                    fse.writeFile(`./docs/index.html`, str);
                 })
                 .catch(e => {
                     console.log(e);
