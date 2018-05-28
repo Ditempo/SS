@@ -1,7 +1,8 @@
 ---
 title: Another Page
-layout: minimal
+layout: post
 description: hi
+date: 180526231983
 ---
 This example site was generated with <a href="https://github.com/doug2k1/nanogen">NanoGen</a>, a micro static site generator built for learning purposes.
 

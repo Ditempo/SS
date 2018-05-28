@@ -1,7 +1,8 @@
 ---
 title: Another Page
-layout: posts
+layout: post
 description: hi
+date: 180528160629
 ---
 ## Welcome to another page
 
