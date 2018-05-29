@@ -2,7 +2,7 @@
 title: Another Page
 layout: post
 description: hi
-date: 180528160629
+date: 2018년 5월 26일
 ---
 ## Welcome to another page
 

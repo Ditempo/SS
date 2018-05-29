@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= site.title ? site.title : 기술블로그 %></title>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
 <body>
@@ -16,7 +18,7 @@
                 <div>
                     <a href="<%= site.basePath%>/about">소개</a>
                     <a href="<%= site.basePath%>/" style="font-weight: 500; color:#000000;">블로그</a>
-                    <a href="#">깃허브</a>
+                    <a href="<%= site.githubPath %>">깃허브</a>
                 </div>
             </div>
         </header>

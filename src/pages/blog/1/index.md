@@ -2,7 +2,7 @@
 title: Another Page
 layout: post
 description: hi
-date: 180526231983
+date: 2018년 5월 26일
 ---
 This example site was generated with <a href="https://github.com/doug2k1/nanogen">NanoGen</a>, a micro static site generator built for learning purposes.
 
@@ -30,10 +30,15 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ```js
 // Javascript code with syntax highlighting.
+
 var fun = function lang(l) {
+
   dateformat.i18n = require('./lang/' + l)
+
   return true;
+
 }
+
 ```
 
 ```ruby

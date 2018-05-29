@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Another Page</title>
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../assets/css/post.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"></link>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
 </head>
 <body>
     <header>
@@ -16,14 +21,15 @@
             <div>
                 <a href="/static-web-generator/about">소개</a>
                 <a href="/static-web-generator/" style="font-weight: 500; color:#000000;">블로그</a>
-                <a href="#">깃허브</a>
+                <a href="https://github.com/Ditempo/">깃허브</a>
             </div>
         </div>
     </header>
     <section class="content">
         <div class="content-header">
             <h1>Another Page</h1>
-            <p>180526231983</p>
+            <p>2018년 5월 26일</p>
+            <hr>
         </div>
         <div class="main-content">
             <p>This example site was generated with <a href="https://github.com/doug2k1/nanogen">NanoGen</a>, a micro static site generator built for learning purposes.</p>
@@ -40,10 +46,15 @@
 </blockquote>
 <h3 id="header-3"><a href="#header-3"></a>Header 3</h3>
 <pre><code class="lang-js">// Javascript code with syntax highlighting.
+
 var fun = function lang(l) {
+
   dateformat.i18n = require(&#39;./lang/&#39; + l)
+
   return true;
+
 }
+
 </code></pre>
 <pre><code class="lang-ruby"># Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
